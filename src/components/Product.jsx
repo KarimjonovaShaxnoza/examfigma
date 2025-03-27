@@ -3,7 +3,7 @@ import React from "react";
 const Product = ({ name, image, price, discount }) => {
   return (
     <>
-      <div className="container mx-auto items-center px-8">
+      <div className="container mx-auto items-center">
         <div className="w-[300px] h-[250px] bg-gray-100 items-center mt-30">
           <img className="mx-auto w-[170px] h-[200px]" src={image} alt="" />
           <div className="bg-black w-[300px] h-[41px] mt-4">
