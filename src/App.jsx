@@ -126,7 +126,7 @@ const App = () => {
               Move All To Bag
             </button>
           </div>
-          <div className="grid grid-cols-4 gap-30 mt-20 mb-50">
+          <div className="grid grid-cols-4 gap-30 mt-20 mb-50 mx-auto">
             {products.map((product) => (
               <Product
                 key={product.id}
