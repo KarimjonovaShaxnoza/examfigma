@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <div className="flex justify-between items-center mt-20">
           <div className="logo">
             <p className="font-bold text-2xl">Exclusive</p>
@@ -22,15 +22,16 @@ const Navbar = () => {
               <a href="">Sign Up</a>
             </li>
           </ul>
-          <div className=" w-[270px] h-10 bg-gray-100 items-center flex">
-            <button className="ml-5 text-gray-500">
-              What are you looking for?
-            </button>
-            <span className="ml-5">
-              <img src="/component.svg" alt="" />
-            </span>
+          <div className="flex items-center w-[270px] h-10 bg-gray-100 px-4 rounded-lg">
+            <input
+              type="text"
+              placeholder="What are you looking for?"
+              className="bg-transparent outline-none flex-1 text-gray-500"
+            />
+            <img src="/component.svg" alt="search" className="w-5 h-5" />
           </div>
-          <div className="flex gap-5 items-center">
+
+          <div className="flex items-center gap-6 ">
             <img src="/wishlist.svg" alt="" />
             <img src="/korzina.svg" alt="" />
             <img src="/user.svg" alt="" />

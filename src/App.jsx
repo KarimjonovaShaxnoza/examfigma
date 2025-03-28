@@ -119,14 +119,14 @@ const App = () => {
     <>
       <div>
         <Navbar />
-        <div className="container mx-auto px-4 ">
+        <div className="container mx-auto px-4">
           <div className="flex justify-between items-center mt-20">
             <p className="text-2xl font-semibold">Products</p>
             <button className="border border-gray-400 px-6 py-2 rounded-md text-black font-bold">
               Move All To Bag
             </button>
           </div>
-          <div className="grid grid-cols-4 gap-6 items-center mb-50">
+          <div className="grid grid-cols-4 gap-30 mt-20 mb-50">
             {products.map((product) => (
               <Product
                 key={product.id}
